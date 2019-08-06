@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+.button-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 75px 10px;
+}
+button{
+    font-size: 1.1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    border: none;
+    background: lightblue;
+    color: #fff;
+    padding: 0.6rem;
+}
+.changed-elements{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 90vw;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-size: 30px;
+    margin: 0 40px;
+}
